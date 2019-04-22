@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<h3>We can start.</h3>>
+<body>
+<a href=" {% url 'home' %} ">Back To Home Page</a>
+<h1>Your Text</h1>
+{{ fulltext }}
+<br>
+<h1>Your word in Text</h1>
+Total Words={{ words_count }}
+<br>
+<h1>In Your Text Total Words Comes In-----</h1>
+{% for word,value in word_dict %}
+{{ word }} = {{ value }}
+<br/>
+{% endfor %}
+<h1>GOOOOOOOOOOOOOOOO</h1>>
+</body>
+</html>
